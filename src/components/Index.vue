@@ -69,7 +69,7 @@ export default {
     cursor: pointer;
     color: #aaa;
     font-size: 1.4em;
-    @media(max-width: 991px) {
+    @media(max-width: 1199px) {
       flex: 1 0 45%;
       max-width: 45%;
       margin: 30px 10px;
