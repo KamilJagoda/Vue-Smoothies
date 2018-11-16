@@ -64,11 +64,22 @@ export default {
     flex: 1 0 30%;
     display: inline-block;
     max-width: 30%;
-    margin: 30px 15px;
+    margin: 30px 14px;
     position: relative;
     cursor: pointer;
     color: #aaa;
     font-size: 1.4em;
+    @media(max-width: 991px) {
+      flex: 1 0 45%;
+      max-width: 45%;
+      margin: 30px 10px;
+    }
+    @media(max-width: 767px) {
+      margin: 30px 0;
+      max-width: 100%;
+      flex: unset;
+      width: 100%;
+    }
     .delete {
       position: absolute;
       top: 4px;
